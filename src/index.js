@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './index.css'; // 자바스크립트에서 css를 추가하는 법
+import App from './App'; // app.js 를 가져옴
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// virtual DOM
+const root = ReactDOM.createRoot(document.getElementById('root'));  
 root.render(
   <React.StrictMode>
     <App />
@@ -14,4 +15,6 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+// 주석처리 
+// reportWebVitals();
