@@ -7,14 +7,14 @@ function MyCom () {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        flexDirection: 'column'
+        flexDirection: 'column',
     }
     return (
         <div style={mycomDiv}>
-            <p>
+            <p className='mycomP'>
                 <img src={clock} alt='시계' style={{'width':'400px'}} />
             </p>
-            <p>
+            <p className='mycomP'>
                 현재 시간 : {new Date().toLocaleTimeString()}
             </p>
         </div>
