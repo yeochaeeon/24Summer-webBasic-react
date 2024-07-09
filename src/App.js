@@ -13,18 +13,7 @@ function App() {
         <h1 className="text-xl font-bold">리액트 실습</h1>
         <div><FaHome /></div>
       </header>
-      <div className="flex flex-col items-center justify-center w-full grow">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <a
-            className="App-link"
-            href="https://github.com/yeochaeeon"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            여채언's github
-          </a>
-        </p> */}
+      <div className="flex flex-col items-center justify-center w-full grow ">
         {/* <Hello /> */}
         {/* <MyDiv /> */}
         <CardMain />

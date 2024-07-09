@@ -8,7 +8,7 @@ export default function CardMain() {
 
   return (
     <div className="w-full">
-      <Card imgSrc={imgSrc} title={title} content={content} />
+        <Card imgSrc={imgSrc} title={title} content={content} /> 
     </div>
   )
 }

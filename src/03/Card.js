@@ -5,13 +5,14 @@ export default function Card({imgSrc, title, content}) {
         <img src={imgSrc}/>
       </div>
       <div className="flex flex-col items-start justify-between w-2/3 h-full">
-        <p className="text-xl font-bold text-blue-900">
+        <p className="ml-2 text-xl font-bold text-blue-900">
             {title}
-            <p className="text-sm text-slate-600">{content}
+            <p className="text-sm text-slate-600 ">
+                {content}
             </p>
         </p>
         {/* <p className="text-sm text-slate-600">{content}</p> */}
-        <p className="text-sm text-slate-900"> ❤️ 좋아요 0</p>
+        <p className="text-sm text-slate-900 "> ❤️ 좋아요 0</p>
       </div>
     </div>
   )
