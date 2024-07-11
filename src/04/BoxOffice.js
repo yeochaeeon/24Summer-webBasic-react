@@ -8,7 +8,7 @@ export default function BoxOffice() {
     useEffect(()=>{
         let url = 'https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?'
         url = url + `key=${process.env.REACT_APP_MV}`;
-        url = url + `&targetDt=20240709`;
+        url = url + `&targetDt=20240710`;
         console.log(url);
 
         //fetch함수를 이용해 오픈 api데이터 불러오기 (비동기 방식)
