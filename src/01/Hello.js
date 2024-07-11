@@ -9,7 +9,7 @@ function Hello(){
     return (
         //묶어주기위한 태그.. 태그하나만 들어가야하기 때문에 묶는 용도로만 씀.
         <div> 
-            <div className="hellodiv">
+            <div className="text-center text-slate-600">
                 {name}님 안녕하세요!
             </div>
             <div>

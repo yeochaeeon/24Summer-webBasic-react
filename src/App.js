@@ -4,6 +4,7 @@ import { FaHome } from "react-icons/fa";
 import Hello from './01/Hello';//.js 생략 
 import MyDiv from './02/MyDiv';
 import CardMain from './03/CardMain';
+import BoxOffice from './04/BoxOffice';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <div className="flex flex-col items-center justify-center w-full grow ">
         {/* <Hello /> */}
         {/* <MyDiv /> */}
-        <CardMain />
+        {/* <CardMain /> */}
+        <BoxOffice />
       </div>
       <footer className='flex items-center justify-center w-full h-16 bg-black text-slate-200'>
         <p className='text-sm font-bold'>2024 여름계절학기 소프트웨어융합기초1</p>
