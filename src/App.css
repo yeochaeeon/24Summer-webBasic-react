@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,18 +8,21 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
+.App{
   /* background-color: #282c34; */
   /* background-color: aliceblue; */
+  /* min-height: 1280px; */
+  /* overflow: scroll; */
   height: 100vh;
+  /* height: 100%; */
   width:100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: space-between; */
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
 }
 
 .App-link {

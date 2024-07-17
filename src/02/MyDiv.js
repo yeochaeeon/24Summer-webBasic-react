@@ -3,9 +3,8 @@ function MyDiv(){
     const n1 = 'MyDiv1';
     const n2 = 'MyDiv2';
     const n3 = 'MyDiv3';
-    
     return(
-        <div className="flex flex-col items-center justify-start w-1/2 p-2 text-xl text-teal-100 h-1/3 bg-cyan-700 ">
+        <div className="flex flex-col items-center justify-start w-3/5 p-2 text-xl text-teal-100 h-3/5 bg-cyan-700 ">
             <p className="w-full h-4 p-2 mb-4 text-left">
                 {n1}
             </p>

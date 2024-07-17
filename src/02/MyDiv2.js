@@ -6,7 +6,7 @@ function MyDiv2({d1,d2,d3}) {
             <p className="w-full h-4 mb-4 text-left">
                 {/* 속성의 이름(d1,d2)이 중요 */} 
                 {/* {probs.d1} > {probs.d2} */}
-                {d1} &gt; {d2} &gt; {d3}
+                {d1} &gt; {d2}
             </p>
             {/* <MyDiv3 dd1={probs.d1} dd2={probs.d2} dd3={probs.d3} /> */}
             <MyDiv3 dd1={d1} dd2={d2} dd3={d3} />

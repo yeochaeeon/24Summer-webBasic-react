@@ -14,7 +14,6 @@ export default function Card({imgSrc, title, content}) {
 
   // useEffect 사용 시 배열기호 안에 아무것도 없으면 컴포넌트 생성시 맨 처음 한 번만 실행됨 
   // useEffect(()=>{},[]) 
-
   //아래와 같은 형태로 작성했을 때는 특정 상태 변수가 변경 될 때 마다 실행됨
   useEffect(()=>{
     console.log(n)
@@ -23,7 +22,7 @@ export default function Card({imgSrc, title, content}) {
   return (
     <div className="flex justify-center w-full p-3 border items-top h-50 border-slate-300">
       <div className="flex items-start justify-center w-1/3 h-50">
-        <img src={imgSrc}/>
+        <img src={imgSrc} alt='card'/>
       </div>
       <div className="flex flex-col items-start justify-between w-2/3 ml-2 h-50">
         <p className="text-xl font-bold text-blue-900 ">
