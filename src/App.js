@@ -10,6 +10,7 @@ import CardMain from './03/CardMain';
 import BoxOffice from './04/BoxOffice';
 import GalMain from './05/GalMain';
 import Final from './test/Final';
+import Final2 from './test/Final2';
 
 function App() {
   return (
