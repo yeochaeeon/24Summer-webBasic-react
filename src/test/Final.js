@@ -45,14 +45,14 @@ export default function Final() {
       },[tdata]);
 
     return (
-        <div class="flex flex-col w-8/10 overflow-y-auto mt-auto mb-4">
-            <form className="flex items-center justify-end mt-2 mb-2 text-lg rounded-sm">
+        <div class="flex h-full flex-col w-4/5 mb-4 justify-start">
+            <form className="flex items-center justify-end w-full p-2 mt-2 text-lg rounded-sm">
               <label htmlFor="dt" className="mr-5 font-bold text-m text-slate-950">
                 날짜선택
               </label>
               <input type='date' id='dt' ref={inRef}
                 onChange={handleSetDt}
-                className="bg-gray-50 border mr-2 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 block focus:border-blue-500 ps-10 p-2.5"/>
+                className="bg-gray-50 border mr-2 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 block focus:border-blue-500 p-2.5"/>
             </form>
             <div className='grid grid-cols-1 gap-4 text-black w-6/10 lg:grid-cols-3 md:grid-cols-2'>
                 {tags}

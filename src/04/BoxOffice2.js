@@ -60,7 +60,7 @@ export default function BoxOffice2() {
     }
 
     return (
-        <div class="relative w-full overflow-x-auto shadow-md sm:rounded-lg">
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
             <form className="flex items-center justify-end mt-2 text-lg rounded-sm bg-slate-700">
               <label htmlFor="dt" className="mr-5 font-bold text-m text-slate-200">
                 날짜선택
